@@ -1,0 +1,77 @@
+header {
+	size: 24px;
+	align-items: center;
+	font-family: "helvetica";
+}
+
+body {
+	color: black;
+	font-size: 120px;
+	font-family: "times";
+/*	background-image: url("../Grungy-Paper-Texture-1.jpg");
+*/    background-repeat: repeat;
+    background-position: right top;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	color: blue;
+}
+
+.jumbotron {
+	margin-top: 10vw;
+}
+
+#main-nav {
+	background-color: blue;
+}
+
+.realestate {
+	font-size: 60px;
+}
+
+@media all and (min-width: 1200px){
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: yellow;
+	}
+
+	button {
+		font-size: 80px;
+	}
+}
+
+@media all and (max-width: 960px){
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: green;
+	}
+
+	button {
+		font-size: 80px;
+	}
+}
+
+@media all and (max-width: 480px){
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: white;
+	}
+
+	h1:hover {
+		color: pink;
+	}
+
+	button {
+		font-size: 80px;
+	}
+}
