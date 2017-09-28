@@ -8,8 +8,7 @@ body {
 	color: black;
 	font-size: 120px;
 	font-family: "times";
-/*	background-image: url("../Grungy-Paper-Texture-1.jpg");
-*/    background-repeat: repeat;
+	background-repeat: repeat;
     background-position: right top;
 }
 h1 {
@@ -26,8 +25,26 @@ h1 {
 	background-color: blue;
 }
 
-.realestate {
-	font-size: 60px;
+.bio {
+	font-size: 12%;
+}
+
+img {
+	justify-content: right;
+	min-height: 100px;
+	max-height: 200px;
+	min-width: 100px;
+	max-width: 100px;
+}
+
+
+.led {
+	font-size: 20px;
+	color:red;
+}
+.real {
+	font-size: 20px;
+	color:red;
 }
 
 @media all and (min-width: 1200px){
@@ -67,9 +84,7 @@ h1 {
 		color: white;
 	}
 
-	h1:hover {
-		color: pink;
-	}
+
 
 	button {
 		font-size: 80px;
